@@ -4,20 +4,24 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
+  height: 100vh;
+  width: 100vh;
   font-weight: normal;
+  display: flex;
+  justify-content: center;
+  place-items: center;
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: hsla( 331, 43%, 72%, 1);
   transition: 0.4s;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsla( 331, 43%, 72%, 0.2);
   }
 }
 
@@ -25,6 +29,7 @@ a,
   body {
     display: flex;
     place-items: center;
+    background-image: url("background.jpg")
   }
 
   #app {
