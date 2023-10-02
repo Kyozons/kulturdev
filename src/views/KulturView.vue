@@ -1,4 +1,4 @@
-<script setup>
+<script setup >
 import KulturLogo from '../assets/kultur_logo.jpg'
 </script>
 
